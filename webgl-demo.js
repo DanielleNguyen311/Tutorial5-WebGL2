@@ -325,6 +325,10 @@ function setupVideo(url)
             copyVideo = true;
         }
     }
+    
+    window.onload = function(){
+        document.getElementById("audio").play();
+    }
 
     return video;
 }
